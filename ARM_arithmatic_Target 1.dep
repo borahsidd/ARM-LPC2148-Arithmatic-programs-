@@ -1,0 +1,2 @@
+Dependencies for Project 'ARM_arithmatic', Target 'Target 1': (DO NOT MODIFY !)
+F (.\32_bit_indirect_addressing_addition.s)(0x5E2701DE)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Philips--list .\32_bit_indirect_addressing_addition.lst --xref -o .\32_bit_indirect_addressing_addition.o --depend .\32_bit_indirect_addressing_addition.d)

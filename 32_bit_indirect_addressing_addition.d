@@ -1,0 +1,1 @@
+.\32_bit_indirect_addressing_addition.o: 32_bit_indirect_addressing_addition.s

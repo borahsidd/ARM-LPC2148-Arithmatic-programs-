@@ -1,0 +1,48 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             PROGRAM,CODE,READONLY
+    2 00000000                 ENTRY
+    3 00000000         MAIN
+    4 00000000         
+    5 00000000 E3A01070        MOV              R1, #0x00000070
+    6 00000004 E3A02207        MOV              R2, #0x70000000
+    7 00000008 E0810002        ADD              R0, R1, R2
+    8 0000000C EF000011        SWI              &11         ; SWI instruction: 
+                                                            Software instructio
+                                                            n/ switch instructi
+                                                            on
+    9 00000010         
+   10 00000010                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\32_bit_direct_addressi
+ng_addition.d -o.\32_bit_direct_addressing_addition.o -IC:\Keil_v4\ARM\RV31\INC
+ -IC:\Keil_v4\ARM\CMSIS\Include -IC:\Keil_v4\ARM\Inc\Philips --predefine="__EVA
+L SETA 1" --list=.\32_bit_direct_addressing_addition.lst 32_bit_direct_addressi
+ng_addition.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MAIN 00000000
+
+Symbol: MAIN
+   Definitions
+      At line 3 in file 32_bit_direct_addressing_addition.s
+   Uses
+      None
+Comment: MAIN unused
+PROGRAM 00000000
+
+Symbol: PROGRAM
+   Definitions
+      At line 1 in file 32_bit_direct_addressing_addition.s
+   Uses
+      None
+Comment: PROGRAM unused
+2 symbols
+333 symbols in table
